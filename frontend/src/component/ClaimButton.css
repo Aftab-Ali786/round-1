@@ -1,0 +1,25 @@
+.claim-button-container {
+  text-align: center;
+  margin: 20px auto;
+}
+
+.claim-button {
+  background-color: #3b82f6; /* blue-500 */
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.claim-button:hover {
+  background-color: #2563eb; /* blue-600 */
+  transform: translateY(-2px);
+}
+
+.claim-button:active {
+  transform: scale(0.98);
+}

@@ -1,0 +1,30 @@
+.user-list-container {
+  background-color: #f3f4f6; /* gray-100 */
+  padding: 16px;
+  border-radius: 12px;
+  max-width: 400px;
+  margin: 20px auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+  text-align: center;
+}
+
+.user-list-container h3 {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #1f2937; /* slate-800 */
+  margin-bottom: 12px;
+}
+
+.user-select {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #d1d5db; /* gray-300 */
+  border-radius: 8px;
+  width: 80%;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.user-select:focus {
+  border-color: #3b82f6; /* blue-500 */
+}
